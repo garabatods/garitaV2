@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run v2:build",
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/v2/"
+    }
+  ]
+}
